@@ -23,7 +23,7 @@ const Header = () => {
               <Link to="/counter">Counter</Link>
             </li>
             <li>
-              <Link to="/table">Table</Link>
+              <Link to="/StaticTable">Static Table</Link>
             </li>
             <li>
               <Link to="/">
