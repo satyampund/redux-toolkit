@@ -26,6 +26,9 @@ const Header = () => {
               <Link to="/StaticTable">Static Table</Link>
             </li>
             <li>
+              <Link to="/dynamicTable">Dynamic Table</Link>
+            </li>
+            <li>
               <Link to="/">
                 <button onClick={logoutHandler}>Logout</button>
               </Link>
