@@ -29,6 +29,9 @@ const Header = () => {
               <Link to="/dynamicTable">Dynamic Table</Link>
             </li>
             <li>
+              <Link to="/crudTable">CRUD Table</Link>
+            </li>
+            <li>
               <Link to="/">
                 <button onClick={logoutHandler}>Logout</button>
               </Link>

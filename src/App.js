@@ -5,6 +5,7 @@ import Auth from './components/Auth';
 import UserProfile from './components/UserProfile';
 import StaticTable from './components/StaticTable';
 import DynamicTable from './components/DynamicTable';
+import CrudTable from './components/CrudTable';
 
 import { useSelector } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/counter" element={<Counter />} />
           <Route path="/StaticTable" element={<StaticTable />} />
           <Route path="/dynamicTable" element={<DynamicTable />} />
+          <Route path="/crudTable" element={<CrudTable />} />
         </Routes>
       </BrowserRouter>
     </>
